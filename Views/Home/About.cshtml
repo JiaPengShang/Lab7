@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<main aria-labelledby="title">
+    <h1 id="title">@ViewBag.Title</h1>
+
+    <p>Welcome to <strong>CampusConnect</strong>! This project is a web application designed to manage university campuses and their students using the MVC (Model-View-Controller) architecture and Entity Framework.</p>
+
+    <h2>Project Overview</h2>
+    <p><strong>CampusConnect</strong> allows users to:</p>
+    <ul>
+        <li>Create and manage university campuses.</li>
+        <li>Add, update, and delete student information.</li>
+        <li>Establish and navigate the one-to-many relationship between campuses and students.</li>
+    </ul>
+
+    <h2>Key Features</h2>
+    <ol>
+        <li><strong>University Campus Management</strong>: Easily add and manage university campuses, each with a unique ID and name.</li>
+        <li><strong>Student Management</strong>: Add students with details such as ID, name, address, and associated campus.</li>
+        <li><strong>One-to-Many Relationship</strong>: Each campus can have multiple students, and each student is linked to a specific campus, demonstrating a clear one-to-many relationship.</li>
+        <li><strong>Navigation Properties</strong>: Utilize navigation properties to seamlessly access related data, enhancing the efficiency of data operations and queries.</li>
+    </ol>
+
+    <h2>Technical Details</h2>
+    <ul>
+        <li><strong>MVC Architecture</strong>: Ensures a clean separation of concerns, making the application more modular and maintainable.</li>
+        <li><strong>Entity Framework</strong>: Simplifies data access by providing a robust ORM (Object-Relational Mapping) framework.</li>
+        <li><strong>Scaffolding</strong>: Quickly generate controllers and views to streamline development.</li>
+    </ul>
+
+    <p>This project serves as a practical example of how to implement and manage relational data in a web application using modern development practices.</p>
+</main>
